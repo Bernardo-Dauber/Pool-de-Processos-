@@ -1,4 +1,4 @@
-# Process Management System
+# Pool of Process 
 
 This project implements a process management system in Python that allows creating, executing, and managing different types of processes, such as computing, writing, reading, and printing processes.
 
