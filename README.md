@@ -7,6 +7,14 @@ This project implements a process management system in Python that allows creati
 
 This project is still a work in progress and is not fully functional. There are known bugs and unfinished features, so it may not behave as expected in all scenarios. Use with caution and feel free to contribute to its development.
 
+### Known Issues
+
+- Some processes may not execute correctly or produce the expected output.
+- The `CarregarFile` method does not fully support all process types.
+- The system may not handle certain edge cases properly.
+
+**If you encounter any issues, feel free to report them or contribute fixes.**
+
 ## 💡 Project Structure
 
 The system consists of several classes, each representing a specific type of process:
@@ -49,9 +57,13 @@ In the process creation menu, you can choose from the following process types:
 - **Save Process Queue**: Saves the process list to a text file (`computation_2.txt`).
 - **Loads processes** from the text file and adds them to the process list.
 
+## Final Considerations
+This system is a simple example of how to manage different types of processes and how to maintain data persistence using files. It can be expanded with new functionalities as needed.
+
+
 ## How to Run
 
 To run the system, simply execute the main script:
-
+    
 ```bash
-python3 sistema_processos.p
+python3 sistema_processos.py
